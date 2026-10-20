@@ -1,3 +1,9 @@
 node_modules
 dist
 *.local
+# wrangler（Cloudflare のツール）がローカル実行時に作る一時ファイル
+.wrangler
+# ローカル用の環境変数ファイル（認証情報を書く可能性があるため、絶対にコミットしない）
+.dev.vars
+.env
+.env.*
